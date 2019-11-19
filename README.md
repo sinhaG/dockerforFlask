@@ -8,7 +8,7 @@ We are leveraging the code base mentioned here - https://github.com/sinhaG/Herok
 
 <ul>
   <li>Checkout the branch with the docker file.</li>
-  <li> use the below command to building docker image. Here in the example <h3>modelv1 is the "Name" you want to give to you docker </h4>
+  <li> use the below command to building docker image. Here in the example <h3>modelv1 is the "Name" you want to give to you docker </h3>
     <p>
 docker build -t modelv1:latest .
       </p></li>
@@ -20,12 +20,12 @@ docker build -t modelv1:latest .
   </li>
 </ul>
 
-Once the docker image is created you can deploy to heroku using following commands.
+Once the docker image is created you can deploy to heroku using following commands.<h3>flaskrestmodel is the "Name" you want to give to you docker </h3>
 
 <ul>
   <li>heroku login</li>
 <li>heroku container:login</li>
-<li>heroku container:push web --app modelv1</li>
-<li>heroku container:release web --app modelv1</li>
-<li>heroku open --app modelv1</li>
+<li>heroku container:push web --app flaskrestmodel</li>
+<li>heroku container:release web --app flaskrestmodel</li>
+<li>heroku open --app flaskrestmodel</li>
 </ul>
